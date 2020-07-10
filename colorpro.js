@@ -23,6 +23,8 @@ easy.addEventListener("click",function(){
 		cont[i].style.background=colors[i];
 	else
 		cont[i].style.display="none";
+		message.textContent="";
+	
 	}
 	
 });
@@ -41,6 +43,7 @@ hard.addEventListener("click",function(){
 		cont[i].style.background=colors[i];
 	}
 	h1.style.background="steelblue";
+	message.textContent="";
 	
 });
 
@@ -58,6 +61,8 @@ resetbut.addEventListener("click",function(){
 	}
 	h1.style.background="steelblue";
 	resetbut.textContent="NEW COLOR";
+	message.textContent="";
+	
 	
 });
 for(var i=0;i<cont.length;i++)
